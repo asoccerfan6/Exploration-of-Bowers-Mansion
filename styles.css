@@ -1,0 +1,83 @@
+/* Feel free to change any of the styling below!*/
+body {
+    text-align: center;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/024/057/582/non_2x/human-in-spooky-ghosts-costume-flying-inside-the-old-house-or-forest-at-night-spooky-halloween-background-with-ghost-ghost-on-halloween-celebration-concept-by-ai-generated-free-photo.jpg");
+    font-family:"Arial";
+    color:yellow;
+    
+}
+
+img {
+    width: 350px;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 800;
+    
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+
+}
+
+p {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+button {
+    height: 40px;
+}
+
+
+h1 {
+    font-size: 50px;
+  
+}
+
+/* When someone enters your game, you only want them to see the opening and the option buttons. The code below will use the display property to hide certain parts of the story. Remove the comments from the code below when you're ready for that step!*/
+
+.story-opening {
+    display: block;
+}
+
+.buttons {
+    display: block;
+}
+
+.open-one-screen {
+    display: none;
+}
+
+.open-two-screen {
+    display: none;
+}
+
+.open-one-end {
+    display: none;
+}
+
+.open-two-end {
+    display: none;
+}
+
+
+.option-two-screen {
+    display: none;
+}
+
+.option-one-end {
+    display: none;
+}
+
+.option-two-end {
+    display: none;
+}
+
+.option-one-screen {
+    display: none;
+}
